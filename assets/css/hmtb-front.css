@@ -1,0 +1,247 @@
+#hmtb-top-bar,
+#hmtb-bottom-bar {
+    background-color: #FFF;
+}
+
+#hmtb-top-bar,
+#hmtb-bottom-bar {
+    width: 100%;
+    margin: 0;
+    z-index: 99999;
+}
+
+#hmtb-top-bar.hmtb-overlap,
+#hmtb-bottom-bar.hmtb-overlap {
+    position: fixed;
+    opacity: 0.9;
+    left: 0;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#hmtb-top-bar.hmtb-overlap {
+    top: 0;
+}
+
+#hmtb-bottom-bar.hmtb-overlap {
+    bottom: 0;
+}
+
+#hmtb-top-bar.hmtb-fixed,
+#hmtb-bottom-bar.hmtb-fixed {
+    opacity: 1;
+    left: 0;
+}
+
+#hmtb-top-bar.hmtb-fixed {
+    position: absolute!important;
+    top: 0px!important;
+    margin-top: 0px!important;
+}
+
+#hmtb-bottom-bar.hmtb-fixed {
+    position: relative!important;
+    bottom: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+.hmtb-content-wrapper {
+    display: grid;
+    align-items: center;
+    border: 0px solid #009900;
+    margin: 0 auto!important;
+}
+
+.txtType {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    height: auto;
+}
+
+.hmtb-img-container {
+    height: 100%;
+    text-align: left!important;
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+}
+
+.hmtb-img-container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    display: inline-block;
+}
+
+.hmtb-msg-container {
+    display: grid;
+    grid-template-columns: 1fr fit-content(300px);
+}
+
+.hmtb-msg-container-item {
+    position: relative;
+    min-height: 50px;
+}
+
+.hmtb-msg-container-item .message {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    margin: 0;
+}
+
+.hmtb-msg-container-item .message.center {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hmtb-msg-container-item .message.right {
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+.hmtb-msg-container .hmtb-msg-container-item p,
+.hmtb-msg-container .hmtb-msg-container-item h1,
+.hmtb-msg-container .hmtb-msg-container-item h2,
+.hmtb-msg-container .hmtb-msg-container-item h3,
+.hmtb-msg-container .hmtb-msg-container-item h4,
+.hmtb-msg-container .hmtb-msg-container-item h5,
+.hmtb-msg-container .hmtb-msg-container-item h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.hmtb-btn-container {
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.hmtb-content-wrapper>.hmtb-btn-container>a.hmtb-button {
+    display: inline-block;
+    min-height: 38px;
+    margin: 0;
+    padding: 8px 10px 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    line-height: 18px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* === Close Icon === */
+
+.hmtb-close {
+    position: absolute;
+    right: 0px;
+    padding: 7px;
+    font-size: 24px;
+    z-index: 9999;
+    cursor: pointer;
+    box-sizing: content-box;
+    overflow: visible;
+    display: none;
+    color: #BF305D;
+}
+
+#hmtb-top-bar .hmtb-content-wrapper .hmtb-close {
+    bottom: -30px;
+}
+
+#hmtb-bottom-bar .hmtb-content-wrapper .hmtb-close {
+    top: -30px;
+}
+
+.hmtb-close:hover {
+    color: #FF0000;
+}
+
+.hmtb-close:before,
+.hmtb-close:after {
+    position: absolute;
+    left: 15px;
+    background-color: #333;
+}
+
+.hmtb-close:before {
+    transform: rotate(45deg);
+}
+
+.hmtb-close:after {
+    transform: rotate(-45deg);
+}
+
+@media(max-width:767px) {
+    .hmtb-content-wrapper {
+        display: inline-block!important;
+        padding: 0 10px!important;
+        width: 100%;
+    }
+    .hmtb-img-container {
+        width: 100%!important;
+        text-align: center!important;
+        margin-bottom: 10px!important;
+        margin-top: 10px!important;
+    }
+    .hmtb-img-container img {
+        width: 180px!important;
+        height: auto!important;
+        top: 0%!important;
+        left: 0%!important;
+        transform: unset!important;
+        margin: 0 auto!important;
+    }
+    .hmtb-msg-container {
+        width: 100%!important;
+        text-align: center!important;
+        left: 0%!important;
+        transform: unset!important;
+        padding: 15px 0;
+        display: block;
+    }
+    .hmtb-msg-container-item {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .hmtb-msg-container-item .message {
+        position: relative;
+        left: 0%;
+        transform: translate(0%, 0%)!important;
+    }
+    .hmtb-msg-container-item .message.center {
+        left: 0%;
+        transform: translate(0%, 0%);
+    }
+    .hmtb-btn-container {
+        width: 100%!important;
+        text-align: center!important;
+        left: 0%!important;
+        transform: unset!important;
+        margin-bottom: 10px!important;
+    }
+    .hmtb-btn-container>a.hmtb-button {
+        left: 0%!important;
+        top: 0%!important;
+        transform: unset!important;
+    }
+    .hmtb-close {
+        right: 0px;
+    }
+}

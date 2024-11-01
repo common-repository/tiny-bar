@@ -1,0 +1,283 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tiny-bar\n"
+"POT-Creation-Date: 2023-08-15 22:54+0600\n"
+"PO-Revision-Date: 2019-05-25 22:28+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../admin\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_html__;esc_html;esc_attr\n"
+"X-Poedit-SearchPath-0: cls-hm-tiny-bar-admin.php\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: cls-hm-tiny-bar-admin.php:31 cls-hm-tiny-bar-admin.php:32
+msgid "TinyBar"
+msgstr ""
+
+#: cls-hm-tiny-bar-admin.php:42 cls-hm-tiny-bar-admin.php:43
+#: view/general.php:21
+msgid "Settings"
+msgstr ""
+
+#: view/general.php:34
+msgid "General"
+msgstr ""
+
+#: view/general.php:37
+msgid "Content"
+msgstr ""
+
+#: view/general.php:40
+msgid "Styles"
+msgstr ""
+
+#: view/partial/content.php:24
+msgid "Background Image"
+msgstr ""
+
+#: view/partial/content.php:30 view/partial/content.php:94
+#: view/partial/general.php:107 view/partial/general.php:137
+#: view/partial/general.php:157 view/partial/general.php:177
+#: view/partial/general.php:197 view/partial/general.php:224
+#: view/partial/general.php:244 view/partial/styles.php:90
+#: view/partial/styles.php:127 view/partial/styles.php:148
+msgid "Please Upgrade Now"
+msgstr ""
+
+#: view/partial/content.php:37
+msgid "Change Image"
+msgstr ""
+
+#: view/partial/content.php:38
+msgid "Remove Image"
+msgstr ""
+
+#: view/partial/content.php:46
+msgid "Message / Content"
+msgstr ""
+
+#: view/partial/content.php:56
+msgid "Button Text"
+msgstr ""
+
+#: view/partial/content.php:64
+msgid "Button URL"
+msgstr ""
+
+#: view/partial/content.php:72
+msgid "Button URL New Tab?"
+msgstr ""
+
+#: view/partial/content.php:80
+msgid "Button URL Nofollow?"
+msgstr ""
+
+#: view/partial/content.php:88
+msgid "Countdown Time"
+msgstr ""
+
+#: view/partial/content.php:111 view/partial/general.php:285
+#: view/partial/styles.php:164
+msgid "Save Settings"
+msgstr ""
+
+#: view/partial/general.php:19
+msgid "Disable Bar"
+msgstr ""
+
+#: view/partial/general.php:27
+msgid "Display Position"
+msgstr ""
+
+#: view/partial/general.php:31
+msgid "Top"
+msgstr ""
+
+#: view/partial/general.php:34
+msgid "Bottom"
+msgstr ""
+
+#: view/partial/general.php:39
+msgid "Fixed at Position"
+msgstr ""
+
+#: view/partial/general.php:43
+msgid "Fixed"
+msgstr ""
+
+#: view/partial/general.php:46
+msgid "Overlap"
+msgstr ""
+
+#: view/partial/general.php:51
+msgid "Hide When Scroll?"
+msgstr ""
+
+#: view/partial/general.php:59
+msgid "Bar Height"
+msgstr ""
+
+#: view/partial/general.php:67
+msgid "Content Width"
+msgstr ""
+
+#: view/partial/general.php:75
+msgid "Background Type"
+msgstr ""
+
+#: view/partial/general.php:79
+msgid "Single Color"
+msgstr ""
+
+#: view/partial/general.php:83
+msgid "For image or gradient background upgrade now!"
+msgstr ""
+
+#: view/partial/general.php:90
+msgid "Gradient"
+msgstr ""
+
+#: view/partial/general.php:93
+msgid "Image"
+msgstr ""
+
+#: view/partial/general.php:101
+msgid "Display Close Icon"
+msgstr ""
+
+#: view/partial/general.php:114
+msgid "Desktop"
+msgstr ""
+
+#: view/partial/general.php:117
+msgid "Mobile"
+msgstr ""
+
+#: view/partial/general.php:120
+msgid "Both"
+msgstr ""
+
+#: view/partial/general.php:123
+msgid "None"
+msgstr ""
+
+#: view/partial/general.php:131
+msgid "Hide on Mobile"
+msgstr ""
+
+#: view/partial/general.php:151
+msgid "Hide Button"
+msgstr ""
+
+#: view/partial/general.php:171
+msgid "Button Width"
+msgstr ""
+
+#: view/partial/general.php:191
+msgid "Message Alignment"
+msgstr ""
+
+#: view/partial/general.php:204
+msgid "Left"
+msgstr ""
+
+#: view/partial/general.php:207
+msgid "Center"
+msgstr ""
+
+#: view/partial/general.php:210
+msgid "Right"
+msgstr ""
+
+#: view/partial/general.php:218
+msgid "Display Countdown Timer"
+msgstr ""
+
+#: view/partial/general.php:238
+msgid "Display on Pages"
+msgstr ""
+
+#: view/partial/general.php:251
+msgid "All Pages"
+msgstr ""
+
+#: view/partial/general.php:254
+msgid "Only On The Home Page"
+msgstr ""
+
+#: view/partial/general.php:257
+msgid "Only On The Following Pages"
+msgstr ""
+
+#: view/partial/general.php:260
+msgid "Not On The Following Pages"
+msgstr ""
+
+#: view/partial/styles.php:15
+msgid "Bar Container"
+msgstr ""
+
+#: view/partial/styles.php:18 view/partial/styles.php:51
+#: view/partial/styles.php:104
+msgid "Background Color"
+msgstr ""
+
+#: view/partial/styles.php:25
+msgid "Second Color"
+msgstr ""
+
+#: view/partial/styles.php:32
+msgid "Message"
+msgstr ""
+
+#: view/partial/styles.php:35 view/partial/styles.php:58
+#: view/partial/styles.php:111
+msgid "Font Color"
+msgstr ""
+
+#: view/partial/styles.php:42 view/partial/styles.php:67
+msgid "Font Size"
+msgstr ""
+
+#: view/partial/styles.php:48
+msgid "Button"
+msgstr ""
+
+#: view/partial/styles.php:73
+msgid "Font Weight"
+msgstr ""
+
+#: view/partial/styles.php:77
+msgid "Normal"
+msgstr ""
+
+#: view/partial/styles.php:78
+msgid "Bold"
+msgstr ""
+
+#: view/partial/styles.php:84
+msgid "Border Radius"
+msgstr ""
+
+#: view/partial/styles.php:101
+msgid "Button Hover"
+msgstr ""
+
+#: view/partial/styles.php:118
+msgid "Close Icon"
+msgstr ""
+
+#: view/partial/styles.php:121
+msgid "Color"
+msgstr ""
+
+#: view/partial/styles.php:142
+msgid "Hover Color"
+msgstr ""
